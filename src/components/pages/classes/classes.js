@@ -6,31 +6,31 @@ import Footer from '../../footer/footer'
 function Classes() {
   const cards=[
     {
-      img:"https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?auto=compress&cs=tinysrgb&w=400",
+      img:"https://images.pexels.com/photos/2204196/pexels-photo-2204196.jpeg?auto=compress&cs=tinysrgb&w=400",
       Name:"Power Lifting",
       description: "Andrew James"
     },
     {
-      img:"https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?auto=compress&cs=tinysrgb&w=400",
+      img:"https://images.pexels.com/photos/2204196/pexels-photo-2204196.jpeg?auto=compress&cs=tinysrgb&w=400",
       Name:"Muscle Stretching",
       description: "Andrew James"
     },
     {
-      img:"https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?auto=compress&cs=tinysrgb&w=400",
+      img:"https://images.pexels.com/photos/2204196/pexels-photo-2204196.jpeg?auto=compress&cs=tinysrgb&w=400",
       Name:"Yoga",
       description: "Andrew James"
     },{
-      img:"https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?auto=compress&cs=tinysrgb&w=400",
+      img:"https://images.pexels.com/photos/2204196/pexels-photo-2204196.jpeg?auto=compress&cs=tinysrgb&w=400",
       Name:"Martial Arts",
       description: "Andrew James"
     },
     {
-      img:"https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?auto=compress&cs=tinysrgb&w=400",
+      img:"https://images.pexels.com/photos/2204196/pexels-photo-2204196.jpeg?auto=compress&cs=tinysrgb&w=400",
       Name:"Gymnastic",
       description: "Andrew James"
     },
     {
-      img:"https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?auto=compress&cs=tinysrgb&w=400",
+      img:"https://images.pexels.com/photos/2204196/pexels-photo-2204196.jpeg?auto=compress&cs=tinysrgb&w=400",
       Name:"Body Weight Excercises",
       description: "Andrew James"
     }
