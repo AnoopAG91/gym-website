@@ -1,0 +1,58 @@
+.WhyUsSection{
+    height: 100%;
+    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.content{
+    height: 70%;
+    width: 40%;    
+}
+.content h2{
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+
+}
+.content h1{
+    margin: 0px;
+    margin-bottom: 2px;
+    padding: 0px;
+    color: red;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content p{
+    margin: 5px;
+    padding: 0px;
+    font-weight: 600;
+}
+
+.Video{
+    height: 70%;
+    width: 17%;
+    margin-left: 180px;
+    border: 2px solid black;
+    background-image: url('https://images.pexels.com/photos/791763/pexels-photo-791763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') ;
+    background-size: cover;
+    background-position: center;
+    z-index: 5;
+    display: flex;  
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+ }
+
+
+ .Border1{
+    width: 25%;
+    height: 50%;
+    border: 5px solid red;
+    position: absolute;
+    top:-5px;
+    right: -5px;
+    z-index: 1;
+ }

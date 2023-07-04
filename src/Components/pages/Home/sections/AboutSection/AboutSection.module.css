@@ -1,0 +1,47 @@
+.AboutSection{
+    height: 100%;
+    width: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.Video{
+   height: 300px;
+   width: 800px;
+   margin-left: 180px;
+   border: 2px solid black;
+   background-image: url('https://images.pexels.com/photos/791763/pexels-photo-791763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') ;
+   background-size: cover;
+   background-position: center;
+   display: flex;  
+   align-items: center;
+   justify-content: center; 
+}
+
+.content{
+   margin-left: 120px;
+   margin-right: 200px;
+   margin-bottom: 20px;
+   
+}
+
+.content h1{
+    color: red;
+}
+.content p{
+    font-weight: 500;
+    font-size: large;
+    line-height: 1.5em;
+}
+
+.content button{
+    font-weight: 700;
+    font-size: large;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 150px;
+
+}

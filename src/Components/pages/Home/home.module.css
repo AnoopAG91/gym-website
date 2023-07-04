@@ -1,0 +1,34 @@
+.Rapper{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.HomeSection{
+    height: 98vh;
+    width: 98vw;
+    border: 5px solid red;
+}
+
+.AboutSection{
+    height: 70vh;
+    width: 98vw;
+    border: 5px solid red;
+}
+
+.WhyUs{
+    height: 50vh;
+    width: 98vw;
+    border: 5px solid red;
+}
+
+.Trainers{
+    height: 90vh;
+    width: 98vw;
+    border: 5px solid red;
+}
+
+
+

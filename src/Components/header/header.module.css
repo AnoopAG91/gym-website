@@ -1,0 +1,99 @@
+.parent{
+
+}
+
+
+.Header{
+      position: fixed;
+      width: 98%;
+      background-color: rgba(0, 0, 0, 0.144);
+      color: rgb(224, 208, 208);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px 0 20px;
+      z-index: 4;
+}
+
+
+
+.joinBtn{
+      border: none;
+      font-weight: bold;
+      font-size: 15px;
+      background-color: red;
+      color: white;
+      border-radius: 10px;
+      padding: 5px;
+      cursor: pointer;
+      margin-right: 20px;
+}
+  
+.Home{
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+}
+.Activehome{
+      color: red;
+      font-weight: bolder;
+      font-size: 18px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+}
+
+.About{
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+}
+.ActiveAbout{
+      color: red;
+      font-weight: bolder;
+      font-size: 18px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+}
+
+.Classes{
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+}
+.ActiveClasses{
+      color: red;
+      font-weight: bolder;
+      font-size: 18px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+}
+
+
+.Contact{
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+}
+.ActiveContact{
+      color: red;
+      font-weight: bolder;
+      font-size: 18px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+}

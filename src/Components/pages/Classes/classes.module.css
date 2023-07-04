@@ -1,0 +1,76 @@
+.Img{
+    height: 70vh;
+    background-image: url("https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color: rgb(249, 247, 247);
+    font-size: 25px;
+}
+
+.Classes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.Classes h1{
+    color: red;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.Classes p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Cards{
+    display: flex;
+    justify-content: center;
+    max-width: 100vw;
+    flex-wrap: wrap;
+}
+
+.Card{
+    flex-basis: calc(25% - 20px);
+    margin: 30px;
+    height: 350px;
+    width: 300px;
+    position: relative;
+}
+
+.Card_Img{
+    border-radius: 20px;
+}
+.Content{
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    left: 15px;
+}
+
+.Content button{
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.Content h3{
+    margin: 5px;
+}
+.Content h2{
+    margin: 5px;
+}
+

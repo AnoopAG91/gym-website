@@ -1,0 +1,62 @@
+.Img{
+    height: 70vh;
+    background-image: url("https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color: rgb(249, 247, 247);
+    font-size: 25px;
+}
+
+.ContactUs{
+    display: flex;
+    justify-content: space-around;
+    color: red;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.ContactUs_Container{
+    height:80vh ;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Map{
+    background-image: url("https://images.pexels.com/photos/269874/pexels-photo-269874.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 30vw;
+    margin-left: 100px;
+}
+
+.Form{
+   display: flex;
+   flex-direction: column;   
+   margin-right: 200px;
+}
+
+.Form input{
+    font-size: 25px;
+    margin: 25px;
+    border-radius: 10px;    
+}
+
+.Form button{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    background-color: blue;
+    width: 200px;
+    margin-left: 100px;
+    border-radius: 25px;
+    height: 35px;
+
+}
+

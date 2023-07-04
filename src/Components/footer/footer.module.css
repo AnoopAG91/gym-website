@@ -1,0 +1,69 @@
+.Footer{
+    height: 40vh;
+    width: 98vw;
+    background-color: rgb(240, 232, 232);
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin: 4px;
+    margin-bottom: 20px;
+}
+.Main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    border: 1px solid white;
+
+}
+.Content{
+   width: 30%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 50px;
+   color: white;
+}
+
+.Content button{
+    font-weight: bold;
+    font-size: 40px;
+    border: none;
+    color: red;
+    background-color: transparent;
+}
+
+.Content p{
+    font-size: 20px;
+}
+
+.Lists{
+   display: flex;
+}
+
+.Lists h2{
+    margin-right: 40px;
+}
+
+.Lists h4{
+    margin-right: 40px;
+}
+
+.Icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.CopyRight{
+    height: 15%;
+    background-color: black;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
