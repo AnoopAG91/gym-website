@@ -54,8 +54,8 @@ const Cards=[
       
        <div className={Styles.Cards}>
              {
-              Cards.map(data=>(
-                <div className={Styles.Card}>
+              Cards.map((data,Index)=>(
+                <div className={Styles.Card} key={Index}>
                   <img src={data.Img}  height='100%' width='100%' className={Styles.Card_Img}  />
                    <div className={Styles.Content}>
                       <h2>{data.class}</h2>
