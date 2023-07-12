@@ -1,7 +1,7 @@
 
 
 .Img{
-    height: 50vh;
+    height: 70vh;
     background-image: url("https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
     display: flex;

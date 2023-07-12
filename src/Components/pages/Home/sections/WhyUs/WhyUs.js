@@ -13,8 +13,9 @@ function WhyUs() {
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry <br/>Lorem Ipsum is simply dummy text of the printing </p>  
         </div> 
         <div className={Styles.Video}>
-            <div className={Styles.Border1}></div>
-            <div className={Styles.Border2}></div>
+
+          <img src='https://images.pexels.com/photos/791763/pexels-photo-791763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' height='100%' width='100%' alt='img' />
+          
 
         </div>
 

@@ -35,24 +35,14 @@
     height: 70%;
     width: 17%;
     margin-left: 180px;
-    border: 2px solid black;
-    background-image: url('https://images.pexels.com/photos/791763/pexels-photo-791763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') ;
+    border-radius: 10px 5px 20px 15px;
     background-size: cover;
     background-position: center;
-    z-index: 5;
     display: flex;  
     align-items: center;
     justify-content: center; 
     position: relative;
+    z-index: 10;
  }
 
 
- .Border1{
-    width: 25%;
-    height: 50%;
-    border: 5px solid red;
-    position: absolute;
-    top:-5px;
-    right: -5px;
-    z-index: 1;
- }

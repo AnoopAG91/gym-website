@@ -19,6 +19,12 @@
    justify-content: center; 
 }
 
+.Video button{
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bolder;
+}
+
 .content{
    margin-left: 120px;
    margin-right: 200px;
@@ -43,5 +49,5 @@
     color: white;
     height: 40px;
     width: 150px;
-
+    cursor: pointer;
 }
