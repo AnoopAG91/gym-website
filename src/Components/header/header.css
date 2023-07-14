@@ -16,7 +16,7 @@
 }
 
 .active_Header{
-  background-color: darkred;
+  background-color: blue;
   width: 95.7vw;
   border: 5px solid red;
 }
@@ -58,5 +58,5 @@
 
 
 .UL .active{
-    color: rgb(115, 235, 115);
+    color: red;
 }
