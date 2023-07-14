@@ -59,5 +59,11 @@
     border-radius: 25px;
     height: 35px; 
     margin-top: 20px;
+    cursor: pointer;
+}
+
+.Form textarea{
+    border: 2px solid black;
+    font-size: larger;
 }
 

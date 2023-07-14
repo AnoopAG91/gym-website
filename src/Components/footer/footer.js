@@ -1,6 +1,9 @@
 import React from 'react'
 import Styles from './footer.module.css'
-
+import { Link, NavLink } from 'react-router-dom'
+import {BsFacebook} from 'react-icons/bs'
+import {BsInstagram} from 'react-icons/bs'
+import {BsLinkedin} from 'react-icons/bs'
 
 function Footer() {
   return (
@@ -10,9 +13,9 @@ function Footer() {
                <button className={Styles.Logo}>GYM</button>
                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
                <div className={Styles.Icons}>
-                <h4>Insta</h4>
-                <h4>Twitter</h4>
-                <h4>FaceBook</h4>
+               <NavLink to="https://www.instagram.com/abhay.khemnar/?next=%2F" className={Styles.Socail_media}>    <BsInstagram/> </NavLink>
+               <NavLink to="https://www.linkedin.com/in/abhay-khemnar-ab73b7259/" className={Styles.Socail_media}>  <BsLinkedin/>  </NavLink>
+               <NavLink to="https://www.facebook.com/abhay.khemnar" className={Styles.Socail_media}>                <BsFacebook/>  </NavLink> 
                </div>
            </div>
            <div className={Styles.Lists}>
